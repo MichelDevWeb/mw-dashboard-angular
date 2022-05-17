@@ -70,6 +70,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('./views/pages/pages.module').then((m) => m.PagesModule)
       },
+      {
+        path: 'learning-basic',
+        loadChildren: () =>
+          import('./modules/learning-basic/learning-basic.module').then((m) => m.LearningBasicModule)
+      }
     ]
   },
   {

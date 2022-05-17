@@ -1,0 +1,25 @@
+{
+    "angular": [
+        {
+            "id": 1,
+            "title": "Sử dụng angular cli tạo dự án trong Angular",
+            "content": [
+                {
+                    "contentId": "1",
+                    "contentTitle": "Angular Cli là gì",
+                    "contentBody": "Chúng ta sử dụng tool Angular Cli để giúp chúng ta tạo dự án một cách nhanh chóng. Nó tự động cấu hình các file và package của dự án angular cho chúng ta một cách tự động. Ngoài ra chúng ta sử dụng Angular Cli để tạo các components, directive hay service vào trong dự án có sẵn chỉ bằng 1 dòng lệnh."
+                },
+                {
+                    "contentId": "2",
+                    "contentTitle": "Cài đặt Angular Cli",
+                    "contentBody": "Content body 2"
+                },
+                {
+                    "contentId": "3",
+                    "contentTitle": "Cấu trúc dự án Angular",
+                    "contentBody": "Content body 3"
+                }
+            ]
+        }
+    ]
+}

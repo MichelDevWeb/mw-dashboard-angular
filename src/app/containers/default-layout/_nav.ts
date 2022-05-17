@@ -10,6 +10,32 @@ export const navItems: INavData[] = [
       text: 'NEW'
     }
   },
+
+  // FrontEnd Element
+  {
+    title: true,
+    name: 'Learning Basic'
+  },
+  {
+    name: 'Front End',
+    url: '/learning-basic',
+    iconComponent: { name: 'cil-speedometer' },
+    children: [
+      {
+        name: 'Angular',
+        url: '/learning-basic/angular'
+      },
+      {
+        name: 'ReactJS',
+        url: '/learning-basic/reactjs'
+      },
+      {
+        name: 'HTML',
+        url: '/learning-basic/html'
+      }
+    ]
+  },
+  
   {
     title: true,
     name: 'Theme'
